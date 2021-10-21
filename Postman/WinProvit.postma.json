@@ -1,0 +1,316 @@
+{
+	"id": "ab240ff8-ddf9-999c-aeb8-8c6143952bb9",
+	"name": "WinProvit",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Candidate",
+			"description": "",
+			"collectionId": "ab240ff8-ddf9-999c-aeb8-8c6143952bb9",
+			"order": [
+				"ccafd466-7962-8f4b-662f-84f7f2383643",
+				"a55ac314-a6c5-1ef4-eda0-d1502fe76b80",
+				"523741a8-b83d-9e3c-669e-bb4d1375d116",
+				"f4f04050-7f85-7785-5898-23c3034b6913",
+				"7f477289-d8cf-0b40-18ee-5e293e6751de"
+			],
+			"owner": "4475581",
+			"folders_order": [],
+			"id": "fb6ec0a4-88ec-c052-048a-6ef199c0c3a9"
+		},
+		{
+			"name": "Identity",
+			"description": "",
+			"collectionId": "ab240ff8-ddf9-999c-aeb8-8c6143952bb9",
+			"order": [
+				"e1c64a97-6ffd-f2d4-798f-6853d062d9e6",
+				"54a9a83d-d7be-9e6f-f836-08eac083931e",
+				"184f19a2-b6ed-debf-72a4-005183658127"
+			],
+			"owner": "4475581",
+			"folders_order": [],
+			"id": "1bc12f60-d0b8-c21c-9633-f3f28de69ae9"
+		}
+	],
+	"folders_order": [
+		"1bc12f60-d0b8-c21c-9633-f3f28de69ae9",
+		"fb6ec0a4-88ec-c052-048a-6ef199c0c3a9"
+	],
+	"timestamp": 1634775360574,
+	"owner": "4475581",
+	"public": false,
+	"requests": [
+		{
+			"id": "184f19a2-b6ed-debf-72a4-005183658127",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFzcGFpeGFvIiwicm9sZSI6IjAiLCJuYmYiOjE2MzQ3NzQxODIsImV4cCI6MTYzNDc4MTM4MiwiaWF0IjoxNjM0Nzc0MTgyfQ.45cQpiaI1f2P9xV-gXwyRGNSMS68-qkjypwdFD1rVYA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFzcGFpeGFvIiwicm9sZSI6IjAiLCJuYmYiOjE2MzQ3NzQxODIsImV4cCI6MTYzNDc4MTM4MiwiaWF0IjoxNjM0Nzc0MTgyfQ.45cQpiaI1f2P9xV-gXwyRGNSMS68-qkjypwdFD1rVYA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44379/identity/Validate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ab240ff8-ddf9-999c-aeb8-8c6143952bb9",
+			"data": null,
+			"dataMode": "params",
+			"name": "Validate",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1634775437311,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "1bc12f60-d0b8-c21c-9633-f3f28de69ae9"
+		},
+		{
+			"id": "523741a8-b83d-9e3c-669e-bb4d1375d116",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFzcGFpeGFvIiwicm9sZSI6IjAiLCJuYmYiOjE2MzQ3NzQxODIsImV4cCI6MTYzNDc4MTM4MiwiaWF0IjoxNjM0Nzc0MTgyfQ.45cQpiaI1f2P9xV-gXwyRGNSMS68-qkjypwdFD1rVYA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFzcGFpeGFvIiwicm9sZSI6IjAiLCJuYmYiOjE2MzQ3NzQxODIsImV4cCI6MTYzNDc4MTM4MiwiaWF0IjoxNjM0Nzc0MTgyfQ.45cQpiaI1f2P9xV-gXwyRGNSMS68-qkjypwdFD1rVYA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44379/candidate",
+			"folder": "1bc12f60-d0b8-c21c-9633-f3f28de69ae9",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1634776168838,
+			"name": "New Candidate",
+			"description": "",
+			"collectionId": "ab240ff8-ddf9-999c-aeb8-8c6143952bb9",
+			"responses": [],
+			"rawModeData": "{\r\n  \"email\": \"aspaixao@gmail.com\",\r\n  \"name\": \"Alexadre Paixao\",\r\n  \"phone\": \"918891748\",\r\n  \"address\": \"Rua que moro\"\r\n}"
+		},
+		{
+			"id": "54a9a83d-d7be-9e6f-f836-08eac083931e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44379/identity/Login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ab240ff8-ddf9-999c-aeb8-8c6143952bb9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1634775414600,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "1bc12f60-d0b8-c21c-9633-f3f28de69ae9",
+			"rawModeData": "{\r\n  \"username\": \"aspaixao\",\r\n  \"password\": \"Teste\"\r\n}"
+		},
+		{
+			"id": "7f477289-d8cf-0b40-18ee-5e293e6751de",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFzcGFpeGFvIiwicm9sZSI6IjAiLCJuYmYiOjE2MzQ3NzQxODIsImV4cCI6MTYzNDc4MTM4MiwiaWF0IjoxNjM0Nzc0MTgyfQ.45cQpiaI1f2P9xV-gXwyRGNSMS68-qkjypwdFD1rVYA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFzcGFpeGFvIiwicm9sZSI6IjAiLCJuYmYiOjE2MzQ3NzQxODIsImV4cCI6MTYzNDc4MTM4MiwiaWF0IjoxNjM0Nzc0MTgyfQ.45cQpiaI1f2P9xV-gXwyRGNSMS68-qkjypwdFD1rVYA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44379/candidate/7ad49242-f053-45d0-3bcb-08d994259a9b",
+			"folder": "1bc12f60-d0b8-c21c-9633-f3f28de69ae9",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1634776358671,
+			"name": "Delete Candidate",
+			"description": "",
+			"collectionId": "ab240ff8-ddf9-999c-aeb8-8c6143952bb9",
+			"responses": [],
+			"rawModeData": "{\r\n  \"email\": \"aspaixao@gmail.com\",\r\n  \"name\": \"Alexadre Paixao\",\r\n  \"phone\": \"918891748\",\r\n  \"address\": \"Rua que moro\"\r\n}"
+		},
+		{
+			"id": "a55ac314-a6c5-1ef4-eda0-d1502fe76b80",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFzcGFpeGFvIiwicm9sZSI6IjAiLCJuYmYiOjE2MzQ3NzQxODIsImV4cCI6MTYzNDc4MTM4MiwiaWF0IjoxNjM0Nzc0MTgyfQ.45cQpiaI1f2P9xV-gXwyRGNSMS68-qkjypwdFD1rVYA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFzcGFpeGFvIiwicm9sZSI6IjAiLCJuYmYiOjE2MzQ3NzQxODIsImV4cCI6MTYzNDc4MTM4MiwiaWF0IjoxNjM0Nzc0MTgyfQ.45cQpiaI1f2P9xV-gXwyRGNSMS68-qkjypwdFD1rVYA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44379/candidate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ab240ff8-ddf9-999c-aeb8-8c6143952bb9",
+			"data": null,
+			"dataMode": "params",
+			"name": "Candidate",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1634775706351,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "fb6ec0a4-88ec-c052-048a-6ef199c0c3a9"
+		},
+		{
+			"id": "ccafd466-7962-8f4b-662f-84f7f2383643",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFzcGFpeGFvIiwicm9sZSI6IjAiLCJuYmYiOjE2MzQ3NzQxODIsImV4cCI6MTYzNDc4MTM4MiwiaWF0IjoxNjM0Nzc0MTgyfQ.45cQpiaI1f2P9xV-gXwyRGNSMS68-qkjypwdFD1rVYA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFzcGFpeGFvIiwicm9sZSI6IjAiLCJuYmYiOjE2MzQ3NzQxODIsImV4cCI6MTYzNDc4MTM4MiwiaWF0IjoxNjM0Nzc0MTgyfQ.45cQpiaI1f2P9xV-gXwyRGNSMS68-qkjypwdFD1rVYA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44379/identity/Validate",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ab240ff8-ddf9-999c-aeb8-8c6143952bb9",
+			"data": null,
+			"dataMode": "params",
+			"name": "Candidates",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1634775683383,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "fb6ec0a4-88ec-c052-048a-6ef199c0c3a9"
+		},
+		{
+			"id": "e1c64a97-6ffd-f2d4-798f-6853d062d9e6",
+			"headers": "Authorization: \nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44379/identity/Register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1634775533373,
+			"name": "Register",
+			"description": "",
+			"collectionId": "ab240ff8-ddf9-999c-aeb8-8c6143952bb9",
+			"responses": [],
+			"rawModeData": "{\r\n  \"userName\": \"\",\r\n  \"password\": \"\",\r\n  \"role\": 0\r\n}"
+		},
+		{
+			"id": "f4f04050-7f85-7785-5898-23c3034b6913",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFzcGFpeGFvIiwicm9sZSI6IjAiLCJuYmYiOjE2MzQ3NzQxODIsImV4cCI6MTYzNDc4MTM4MiwiaWF0IjoxNjM0Nzc0MTgyfQ.45cQpiaI1f2P9xV-gXwyRGNSMS68-qkjypwdFD1rVYA\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFzcGFpeGFvIiwicm9sZSI6IjAiLCJuYmYiOjE2MzQ3NzQxODIsImV4cCI6MTYzNDc4MTM4MiwiaWF0IjoxNjM0Nzc0MTgyfQ.45cQpiaI1f2P9xV-gXwyRGNSMS68-qkjypwdFD1rVYA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44379/candidate/7ad49242-f053-45d0-3bcb-08d994259a9b",
+			"folder": "1bc12f60-d0b8-c21c-9633-f3f28de69ae9",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1634776286662,
+			"name": "Update Candidate",
+			"description": "",
+			"collectionId": "ab240ff8-ddf9-999c-aeb8-8c6143952bb9",
+			"responses": [],
+			"rawModeData": "{\r\n  \"email\": \"aspaixao@gmail.com\",\r\n  \"name\": \"Alexadre Paixao\",\r\n  \"phone\": \"918891748\",\r\n  \"address\": \"Rua que moro\"\r\n}"
+		}
+	]
+}

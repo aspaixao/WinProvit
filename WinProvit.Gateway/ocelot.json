@@ -22,7 +22,7 @@
           "Port": 44302
         }
       ],
-      "UpstreamPathTemplate": "/candidate/{everything}",
+      "UpstreamPathTemplate": "/{everything}",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
       "SwaggerKey": "candidate"
     }
