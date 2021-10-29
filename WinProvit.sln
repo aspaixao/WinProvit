@@ -29,6 +29,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinProvit.Gateway", "WinPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinProvit.Api.Candidate", "WinProvit.Api.Canidate\WinProvit.Api.Candidate.csproj", "{FE68C888-9FC0-46C2-AE5D-697A8D32C70B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSite", "WebSite", "{BFCAB5AC-1D92-4161-929B-786B70EA79FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{861AC07C-A9A7-4A91-9D5A-C8C3E8C94187}"
+	ProjectSection(SolutionItems) = preProject
+		WebSite\frontend\index.html = WebSite\frontend\index.html
+		script.js = script.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{D180B932-D411-45B2-869C-4C22913D576C}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		login.html = login.html
+		login.js = login.js
+		script.js = script.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +96,8 @@ Global
 		{E629C253-54D5-4374-8A1B-DCC8EBCAB3BD} = {1C698E46-D08B-45E8-ADE1-4F5C758A38B9}
 		{F94DF7DA-EF29-4B64-9BCC-058CAC1DA898} = {E629C253-54D5-4374-8A1B-DCC8EBCAB3BD}
 		{B6AC7C0B-B7CC-437B-8AB6-08D00B8A810B} = {267FDCE1-A47F-4197-B17A-4A526783AEF4}
+		{861AC07C-A9A7-4A91-9D5A-C8C3E8C94187} = {BFCAB5AC-1D92-4161-929B-786B70EA79FC}
+		{D180B932-D411-45B2-869C-4C22913D576C} = {BFCAB5AC-1D92-4161-929B-786B70EA79FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3033DEE4-B5A9-401E-BF6C-B300C82B1D55}

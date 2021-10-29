@@ -21,6 +21,7 @@ namespace WinProvit.Gateway
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             services.AddOcelot(Configuration);
             //services.AddSwaggerGen(c =>
             //{
@@ -60,13 +61,18 @@ namespace WinProvit.Gateway
             app.UseSwagger();
             //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WinProvit.Gateway v1"));
             app.UseSwaggerForOcelotUI(opt =>
-            {
+            { 
                 opt.PathToSwaggerGenerator = "/swagger/docs";
             });
 
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(x =>
+                x.AllowAnyOrigin()
+                 .AllowAnyMethod()
+                 .AllowAnyHeader());
 
             app.UseAuthorization();
 
